@@ -1,0 +1,13 @@
+Package: com.yourepo.tqm-mos.erasermos
+Name: Eraser Mos
+Version: 0.9.43
+Architecture: iphoneos-arm
+Description: Một tweaks để xoá cydia được DevMos fix lại cho tất cả các dòng từ ios 7-10.x.x
+Author: DevMos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.1), firmware (<= 10.3.3), mobilesubstrate
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Maintainer: QuangMinhOS <quangminh388373@gmail.com>
+Filename: ./debs/erasermos.deb
+Size: 518 KB
+MD5sum: FD8F4CEE78986EA5F546E338B6C23998

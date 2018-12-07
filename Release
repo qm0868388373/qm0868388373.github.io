@@ -1,0 +1,8 @@
+Origin: QuangMinh Repo
+Label: Mos
+Suite: stable
+Version: 1.0
+Codename: tqm-mos
+Architectures: iphoneos-arm
+Components: main
+Description: Nguồn của Trần Quang Minh Fix Tweaks
