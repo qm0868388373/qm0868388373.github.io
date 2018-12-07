@@ -9,63 +9,66 @@ Depends: firmware (>= 7.1), firmware (<= 10.3.3), mobilesubstrate
 Icon: file:///Applications/Eraser.app/Icon-60.png
 Maintainer: QuangMinhOS <quangminh388373@gmail.com>
 Filename: ./debs/erasermos.deb
-Size: 518 KB
-MD5sum: FD8F4CEE78986EA5F546E338B6C23998
+Size: 518
+MD5sum: e258355b06de7a95ded502f9605647c8
 
-Package: com.yourepo.trollmos.biutngstt3
+Package: com.yourepo.tqm-minh.biutngstt3
 Name: Biểu tượng stt3
 Version: 2.5.1
 Architecture: iphoneos-arm
 Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
 Author: Mos <anhminhclub@gmail.com>
 Section: Tweaks
-Pre-Depends: com.yourepo.devmos.opennotifierblack
-Depends: firmware (>=10.0), mobilesubstrate, com.yourepo.trollmos.libmoorecon | libstatusbar, preferenceloader, applist
+Pre-Depends: com.yourepo.tqm-minh.opennotifierblack, com.yourepo.tqm-minh.libmoorecon
+Depends: firmware (>=10.0), mobilesubstrate, preferenceloader, applist
 Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9
 Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/biutngstt3.deb
-MD5sum: BED13A076B7B3B708752EBAA5454C18A
+Size: 2.05 MB
+MD5sum: afb6cc56ca234099882746fa707f073a
 
-Package: com.yourepo.tqm-mos.chatxi
-Name: ChatXI
+Package: com.yourepo.tqm-minh.chatfix
+Name: ChatFix
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Jailbreaker!!!!!!!!!!!!!!! ngăn không cho phát hiện cài tweak từ nguồn không chính chủ.
-Author: Mos <quangminh388373@gmail.com>
+Author: Mos <anhminh311105@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate
-Maintainer: QuangMinhOs <quangminh388373@gmail.com>
+Maintainer: Tqm-minh <anhminh311105@gmail.com>
 Filename: ./debs/chatxi.deb
-Size: 3.95 KB
-MD5sum: 968FE22CC5ECA0ED52881BA7483F142E
+Size: 3.94 KB
+MD5sum: 1c9460124219beaa58617dee7d42cd02
 
-Package: com.yourepo.tqm-mos.messagexi
-Name: MessageXI
-Version: 1.2.1.7
+Package: com.yourepo.tqm-minh.chatxi
+Name: ChatXI
+Version: 1.0
 Architecture: iphoneos-arm
 Description: mFloating chat heads for SMS, WhatsApp, and Facebook Messenger!
-Author: Mos <quangminh388373@gmail.com>
+Author: Mos <anhminh311105@gmail.com>
 Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate, com.yourepo.tqm-mos.chatxi, com.rpetrich.rocketbootstrap
-Maintainer: QuangMinhOs <quangminh388373@gmail.com>
+Pre-Depends: com.yourepo.tqm-minh.chatfix
+Depends: firmware (>= 5.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Maintainer: Tqm-minh <anhminh311105@gmail.com>
 Filename: ./debs/messagexi.deb
-MD5sum: 774BB420CCE3F60AFBAD5AF79CF338AA
+Size: 2.94 MB
+MD5sum: 0571c6ee45538c7bb12488315be19806
 
-Package: com.yourepo.devmos.libmoorecon
+Package: com.yourepo.tqm-minh.libmoorecon
 Name: libmoorecon
 Version: 2.0
 Architecture: iphoneos-arm
 Description: gói phụ trợ đi kèm opennotifi 10
 Author: Mos <anhminhclub@gmail.com>
-Section: Utilities
+Section: Tweaks
 Depends: firmware (>=9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar
 Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/libmoorecon.deb
 Size: 42.2 KB
-MD5sum: AF3D35D7288E3C4D9134BF166EC6D6AF
+MD5sum: e8af1e26d19f28ca41d1202dd9442a4b
 
-Package: com.yourepo.devmos.opennotifierblack
+Package: com.yourepo.tqm-minh.opennotifierblack
 Name: Opennotifier Black
 Version: 1.0
 Architecture: iphoneos-arm
@@ -75,7 +78,7 @@ Section: Tweaks
 Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/opennotifierblack.deb
 Size: 813 KB
-MD5sum: CD67D800D361038874C9D8C2519B912B
+MD5sum: ba7b059fadde8a01b24c5c89f671e26d
 
 Package: com.yourepo.tqm-mos.maize
 Name: Maize
@@ -89,21 +92,21 @@ Conflicts: org.thebigboss.vigor, com.yourepo.kiiimo.flipcontrolcenter, com.rpetr
 Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
 Maintainer: QuangMinhOs <quangminh388373@gmail.com>
 Filename: ./debs/maize.deb
-Size: 946 KB
-MD5sum: 6139B7261EE16263B7347305573A17F1
+Size: 946
+MD5sum: 6139b7261ee16263b7347305573a17f1
 
-Package: com.yourepo.devmos.networklist
+Package: com.yourepo.tqm-minh.networklist
 Name: NetworkList
 Version: 0.4.1
 Architecture: iphoneos-arm
 Description: view saved WiFi passwords in Settings hiện thị pass wifi đã kết nối
-Author: Qusic <anhminhclub@gmail.com>
+Author: Mos <anhminhclub@gmail.com>
 Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
 Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/networklist.deb
 Size: 30.8 KB
-MD5sum: D71BC7A12E0C323B51F14E3ABF6CDE49
+MD5sum: 8ba150039fa68ef6aab94a5a6ab540a7
 
 Package: com.yourepo.cydiamos.ntspeed
 Name: NtSpeed
@@ -115,8 +118,8 @@ Section: Tweaks
 Depends: firmware (>= 6.0), mobilesubstrate, firmware (<= 11.0)
 Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/ntspeed.deb
-Size: 23.9 KB
-MD5sum: ACDE715B352B50713D3B726C92D5782C
+Size: 23.9
+MD5sum: acde715b352b50713d3b726c92d5782c
 
 Package: com.yourepo.devmos.mimport
 Name: Musicport
@@ -128,7 +131,273 @@ Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
 Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/mimport.deb
-Size: 393 KB
-MD5sum: F9B8A2B8C36B28E71FCAFADD96112D35
+Size: 393
+MD5sum: f9b8a2b8c36b28e71fcafadd96112d35
 
+Package: com.yourepo.devmos.alkalinemos
+Name: Alkaline Mos
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Thay đổi giao diện pin mặc định trên stt3 tương thích ios7-11
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/alkalinemos_1.3_iphoneos-arm.deb
+Size: 1.27 MB
+MD5sum: 69acb0e2cb6fac6d3796585d9d2ea5f3
 
+Package: com.yourepo.devmos.cask
+Name: Cask
+Version: 0.2
+Architecture: iphoneos-arm
+Description: Animated table scrolling inspired by Google Plus
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/cask_0.2_iphoneos-arm.ded.deb
+Size: 10.7 KB
+MD5sum: d4e558140095bb0ed023020dfe5237fb
+
+Package: com.yourepo.devmos.ghimvideos
+Name: Ghim Videos
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Description: Một tinh chỉnh nhỏ giúp bạn ghim được videos trong safari mọi nơi bạn muốn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.ghimvideos.deb
+Size: 3.68 KB
+MD5sum: 2855cfc78eee26ed969d2d748b41c827
+
+Package: com.yourepo.devmos.icongif
+Name: Icon gif
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Icon động trên IOS 8/9/10/11 by soái ca (Quang Minh)
+Author: Quang Minh <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Icon: file:///Library/PreferenceBundles/FingalPrefs.bundle/icon_big.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.icongif.deb
+Size: 7.41 MB
+MD5sum: 47ac614d77e749e8ec33ff56fcd94bf6
+
+Package: com.yourepo.devmos.mobius
+Name: mobius
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Home vô tận màn hình chính lướt vô tận
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.mobius.deb
+Size: 72.9 KB
+MD5sum: ef8563e0ea46f7d7ae783af283a9bbf6
+
+Package: com.yourepo.devmos.nopagedots7
+Name: NoPageDots7
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Remove page indicator dots from iOS 7.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.nopagedots7.deb
+Size: 2.98 KB
+MD5sum: a8c793d98c43263e710447fcbfe7531f
+
+Package: com.yourepo.devmos.portraitlightning
+Name: Portrait Lightning
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Thêm tính năng chụp ảnh như iphone8 plus xuống 7 plus chụp ảnh đen trắng
+Author: Quang Minh <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.devmos.portraitlightning_1.0_iphoneos-arm.deb
+Size: 2.83 KB
+MD5sum: 1d934a0d4450791ab4fa6f197a6141d2
+
+Package: com.yourepo.tqm-minh.giaodinmos
+Name: Giao Diện Mos
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Snowboard theming engine tweaks enable themes mới cho ios
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, jp.ashikase.techsupport, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Icon: file:///Library/PreferenceBundles/SnowboardPrefs.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.giaodinmos.deb
+Size: 2.10 MB
+MD5sum: 7d10c631c5efe4449c409b9adbe04c5c
+
+Package: com.yourepo.tqm-minh.iconon-off
+Name: Icon on-off
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: Add some style to your sưitches icon on off ban đêm và ban ngày
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Icon: file:///Library/PreferenceBundles/DayNightSwitch.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.iconon-off.deb
+Size: 55.5 KB
+MD5sum: 19057d4548a97c22190263f92267d938
+
+Package: com.yourepo.tqm-minh.lightson
+Name: LightsOn
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Enable Portrait Lighting on iPhone 7+ (10.0 - 11.4b3)
+Author: Mos <anhminh311105@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Maintainer: Tqm-minh <anhminh311105@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.lightson.deb
+Size: 3.89 KB
+MD5sum: 440f844b01d43e4656629ce2611cc32c
+
+Package: com.yourepo.tqm-minh.pullover10
+Name: PullOver10
+Version: 2.0
+Architecture: iphoneos-arm
+Description: A better way to multitask! Đa nhiệm rạng thông báo
+Author: Mos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader, libactivator, applist
+Conflicts: com.reddoorendeavors.pullover10
+Icon: file:///Library/PreferenceBundles/PullOverPreferences.bundle/icon-small@2x.png
+Maintainer: Tqm_Minh <quangminh388373@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.pullover10.deb
+Size: 2.71 MB
+MD5sum: d83ddfc60aebdccfab48e739618ada56
+
+Package: com.yourepo.tqm-minh.spxpstt3
+Name: Sắp xếp stt3
+Version: 2.0
+Architecture: iphoneos-arm
+Description: Arrange statusbar icons.sắp sếp tuỳ chỉnh icon statusbar
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>=9.0), mobilesubstrate, preferenceloader
+Conflicts: net.tateu.moveable, com.repo.xarold.com.moveable
+Icon: file:///Library/PreferenceBundles/Moveable9.bundle/Moveable9.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.spxpstt3.deb
+Size: 272 KB
+MD5sum: 50d078ff09a9704c9822f99771f888e2
+
+Package: com.yourepo.tqm-minh.themesprodark
+Name: Themes ProDark
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bring the experience of iphone to your iDevice.iPhone M_Os to your iDevice.
+Author: Mos <anhminh311105@gmail.com>
+Section: Themes
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.themesprodark.deb
+Size: 1.72 MB
+MD5sum: 581938dd62e5b692ed0ab7c5b46ac0fd
+
+Package: com.yourepo.tqm-minh.thngbo
+Name: Thông báo
+Version: 1.0-6
+Architecture: iphoneos-arm
+Description: Jailbreaker!!!!!!!!!!!!!!! Customizable S8 Style Edge Notifications on iOS (iOS 9 — 10)
+Author: Mos <quangminh388473@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader, org.thebigboss.libcolorpicker
+Maintainer: Tqm-Minh <quangminh388473@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.thngbo.deb
+Size: 150 KB
+MD5sum: f11774dc723f01fb6d1105d975c0f92e
+
+Package: com.yourepo.tqm-minh.youtubed
+Name: YouTubed
+Version: 1.7.2-1
+Architecture: iphoneos-arm
+Description: Enable YouTube app backgrounding ẩn youtube vẫn nge đk âm thanh giúp ios đơ tốn pin hơn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.youtubed.deb
+Size: 24.1 KB
+MD5sum: d445ee4b4d7e56b36dbf3a46e833e0ec
+
+Package: com.yourepo.cydiamos.iphonexls
+Name: Iphone X LS
+Version: 1.0
+Architecture: iphoneos-arm
+Description: iPhone X LS for iOS 10 giả lập màn hình khoá iphone X lên ios đời thấp
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/iphonexls_1.0_iphoneos-arm.deb
+Size: 15.0 KB
+MD5sum: 36336ff1645d863f08b398a71f5b28e6
+
+Package: com.yourepo.devmos.nomoreseparators
+Name: NoMoreSeparators
+Version: 1.8
+Architecture: iphoneos-arm
+Description: Removes the ugly tableView ndxjjsksksjxnsnsnxnsnn
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/nomoreseparators_1.8_iphoneos-arm.deb
+Size: 10.9 KB
+MD5sum: 9b237165e8419d356d12a36c94a14e87
+
+Package: com.yourepo.tqm-minh.anhim
+Name: Đa nhiệm
+Version: 1.6.2
+Architecture: iphoneos-arm
+Description: Enable SplitView and SlideOver Features!
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, applist
+Icon: file:///Library/PreferenceBundles/Gorgone.bundle/Gorgone@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.anhim.deb
+Size: 45.5 KB
+MD5sum: 6b336e93fa9bd79f4e291cc66b7e8822
+
+Package: com.yourepo.tqm-minh.ly
+Name: Độ lẩy
+Version: 1.4.5
+Architecture: iphoneos-arm
+Description: Hook's Law for iOS 9 tạo hiệu ứng cho toàn system ios đẹp hơn với hoạt ảnh triwwuf xâu
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 8.4), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Icon: file:///Library/PreferenceBundles/Hortus.bundle/icon@2x.png
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.ly.deb
+Size: 36.9 KB
+MD5sum: 0f69e746ab7cb6f1ec6cf72a61b1f207
+
+Package: com.yourepo.tqm-minh.blackicon
+Name: Black icon
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bring the experience of iphone to your iDevice.iPhone M_Os to your iDevice.
+Author: Mos <anhminh311105@gmail.com>
+Section: Themes
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/com.yourepo.tqm-minh.blackicon.deb
+Size: 2.15 MB
+MD5sum: 5938a2aeb1a032f2bb1cd5e9e0eb895a
