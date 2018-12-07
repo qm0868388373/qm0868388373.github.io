@@ -11,3 +11,137 @@ Maintainer: QuangMinhOS <quangminh388373@gmail.com>
 Filename: ./debs/erasermos.deb
 Size: 518 KB
 MD5sum: FD8F4CEE78986EA5F546E338B6C23998
+
+Package: com.yourepo.trollmos.biutngstt3
+Name: Biểu tượng stt3
+Version: 2.5.1
+Architecture: iphoneos-arm
+Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Pre-Depends: com.yourepo.trollmos.opennotifierblack
+Depends: firmware (>=10.0), mobilesubstrate, com.yourepo.trollmos.libmoorecon | libstatusbar, preferenceloader, applist
+Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/biutngstt3.deb
+MD5sum: BED13A076B7B3B708752EBAA5454C18A
+
+Package: com.yourepo.tqm-mos.chatxi
+Name: ChatXI
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Jailbreaker!!!!!!!!!!!!!!! ngăn không cho phát hiện cài tweak từ nguồn không chính chủ.
+Author: Mos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: QuangMinhOs <quangminh388373@gmail.com>
+Filename: ./debs/chatxi.deb
+Size: 3.95 KB
+MD5sum: 968FE22CC5ECA0ED52881BA7483F142E
+
+Package: com.yourepo.tqm-mos.messagexi
+Name: MessageXI
+Version: 1.2.1.7
+Architecture: iphoneos-arm
+Description: mFloating chat heads for SMS, WhatsApp, and Facebook Messenger!
+Author: Mos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate, com.yourepo.tqm-mos.chatxi, com.rpetrich.rocketbootstrap
+Maintainer: QuangMinhOs <quangminh388373@gmail.com>
+Filename: ./debs/messagexi.deb
+MD5sum: 774BB420CCE3F60AFBAD5AF79CF338AA
+
+Package: com.yourepo.devmos.libmoorecon
+Name: libmoorecon
+Version: 2.0
+Architecture: iphoneos-arm
+Description: gói phụ trợ đi kèm opennotifi 10
+Author: Mos <anhminhclub@gmail.com>
+Section: Utilities
+Depends: firmware (>=9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/libmoorecon.deb
+Size: 42.2 KB
+MD5sum: AF3D35D7288E3C4D9134BF166EC6D6AF
+
+Package: com.yourepo.devmos.opennotifierblack
+Name: Opennotifier Black
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bộ Icon openNotifier đen trắng có số icon hình vuông
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/opennotifierblack.deb
+Size: 813 KB
+MD5sum: CD67D800D361038874C9D8C2519B912B
+
+Package: com.yourepo.tqm-mos.maize
+Name: Maize
+Version: 2.2
+Architecture: iphoneos-arm
+Description: Mang ControlCenter của IOS11 đến với IOS10. Fix cho IOS10.3.x bởi Quang Minh
+Author: Mos <quangminh388373@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch, firmware (<= 11.0)
+Conflicts: org.thebigboss.vigor, com.yourepo.kiiimo.flipcontrolcenter, com.rpetrich.flipcontrolcenter, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
+Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
+Maintainer: QuangMinhOs <quangminh388373@gmail.com>
+Filename: ./debs/maize.deb
+Size: 946 KB
+MD5sum: 6139B7261EE16263B7347305573A17F1
+
+Package: com.yourepo.devmos.networklist
+Name: NetworkList
+Version: 0.4.1
+Architecture: iphoneos-arm
+Description: view saved WiFi passwords in Settings hiện thị pass wifi đã kết nối
+Author: Qusic <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/networklist.deb
+Size: 30.8 KB
+MD5sum: D71BC7A12E0C323B51F14E3ABF6CDE49
+
+Package: com.yourepo.cydiamos.ntspeed
+Name: NtSpeed
+Version: 1.0
+Architecture: iphoneos-arm
+Description: See Active Traffic Network Speed được quang minh fix lại hiển thị wifi với 3,4g khi khết nối
+Author: Quang Minh <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 6.0), mobilesubstrate, firmware (<= 11.0)
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/ntspeed.deb
+Size: 23.9 KB
+MD5sum: ACDE715B352B50713D3B726C92D5782C
+
+Package: com.yourepo.devmos.mimport
+Name: Musicport
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Media Importer Directly From Music App
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/mimport.deb
+Size: 393 KB
+MD5sum: F9B8A2B8C36B28E71FCAFADD96112D35
+
+Package: com.yourepo.tqm_mos.lightson
+Name: Musicport
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Media Importer Directly From Music App
+Author: Mos <anhminhclub@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
+Maintainer: Quang Minh <anhminhclub@gmail.com>
+Filename: ./debs/lightson.ded
+Size: 3.91 KB
+MD5sum: 2D62F93B7AA4ED04C1C5D0ED949FEDEB
+
+
