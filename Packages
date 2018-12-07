@@ -19,7 +19,7 @@ Architecture: iphoneos-arm
 Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
 Author: Mos <anhminhclub@gmail.com>
 Section: Tweaks
-Pre-Depends: com.yourepo.trollmos.opennotifierblack
+Pre-Depends: com.yourepo.devmos.opennotifierblack
 Depends: firmware (>=10.0), mobilesubstrate, com.yourepo.trollmos.libmoorecon | libstatusbar, preferenceloader, applist
 Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9
 Maintainer: Quang Minh <anhminhclub@gmail.com>
@@ -130,18 +130,5 @@ Maintainer: Quang Minh <anhminhclub@gmail.com>
 Filename: ./debs/mimport.deb
 Size: 393 KB
 MD5sum: F9B8A2B8C36B28E71FCAFADD96112D35
-
-Package: com.yourepo.tqm_mos.lightson
-Name: Musicport
-Version: 1.1
-Architecture: iphoneos-arm
-Description: Media Importer Directly From Music App
-Author: Mos <anhminhclub@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 6.0), unzip, unrar
-Maintainer: Quang Minh <anhminhclub@gmail.com>
-Filename: ./debs/lightson.ded
-Size: 3.91 KB
-MD5sum: 2D62F93B7AA4ED04C1C5D0ED949FEDEB
 
 
