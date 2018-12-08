@@ -36,8 +36,8 @@ Author: Mos <anhminh311105@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate
 Maintainer: Tqm-minh <anhminh311105@gmail.com>
-Filename: ./debs/chatxi.deb
-Size: 3.94 KB
+Filename: ./debs/chatfix.deb
+Size: 3.94KB
 MD5sum: 1c9460124219beaa58617dee7d42cd02
 
 Package: com.yourepo.tqm-minh.chatxi
@@ -50,8 +50,8 @@ Section: Tweaks
 Pre-Depends: com.yourepo.tqm-minh.chatfix
 Depends: firmware (>= 5.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Maintainer: Tqm-minh <anhminh311105@gmail.com>
-Filename: ./debs/messagexi.deb
-Size: 2.94 MB
+Filename: ./debs/chatxi.deb
+Size: 2.94MB
 MD5sum: 0571c6ee45538c7bb12488315be19806
 
 Package: com.yourepo.tqm-minh.libmoorecon
